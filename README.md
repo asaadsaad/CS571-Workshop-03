@@ -1,3 +1,5 @@
+# CS571 Workshop 03
+## GitHub Notes App
 The following ReactNative Expo project is to search and display information about GitHub profiles. Clone the repo and install all deps.
 The application should boot a Stack Navigation with the following structure:
 * Search (main page, users will search for a certain GitHub account)
