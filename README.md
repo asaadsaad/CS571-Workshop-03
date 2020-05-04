@@ -37,7 +37,7 @@ The application should boot a Stack Navigation with the following screens:
 * Do not push any deps (node_modules).
 * Remember to honor the project integrity and authenticity of your code.
 * Submission deadline is 8 PM.
-* This workshop contributes 5 points into your final grade.
+* This workshop contributes 5 points to your final grade.
     
 ## Please find screenshots for the finished application  
 
