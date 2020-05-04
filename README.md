@@ -8,7 +8,7 @@ The application should boot a Stack Navigation with the following structure:
 * Notes (Add local notes)
   
 ## Project Requirements
-1. Start by completing the code in `App.js` to meet the above requirements.
+1. Start by completing the code for `App.js` to meet the above requirements.
 2. Complete the code for `Search.js` screen, which has the following state: `{username, loading, error}`, Display an input with a button to search for a GitHub account, your form should avoid the keyboard, and focused on the input element. Your screen will show an activity indicator from `loading` state and and `error` if we fail to fetch the GitHub information. Fetch the user GitHub profile details from `https://api.github.com/users/account` replace account with GitHub account name. After you fetch the profile details, take the user to the Dashboard screen.
 3. Complete the code for `Dashboard.js` screen to display the user profile picture from `avatar_url` and show 3 buttons to display the Profile, Repositories, Notes screens. The Dashboard screen must show the user's full name on the navigation header.
 4. Complete the code for `ProfileDetails.js` screen, where you need to display the following:
