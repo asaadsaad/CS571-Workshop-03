@@ -24,7 +24,7 @@ The application should boot a Stack Navigation with the following screens:
 5. Complete the code for `Repositories.js` screen, you will have to fetch the repositories details from `repos_url` property from the previous query.  
     * The component has the following state `{list, loading, error}`.
     * This screen will display the `<Badge />` component, and a `ScrollView` list of the user repos seperated by a `<Separator />` component. 
-    * When the user clicks on the repository name, take the user to the WebView screen and pass the `html_url`. Note that `WebView` screen is expecting a parameter `url`.
+    * When the user clicks on the repository name, take the user to the `WebView` screen and pass the `html_url`. Note that `WebView` screen is expecting a parameter `url`. You don't need to modify `WebView` screen, just use it.
     * Manage showing an activity indicator and error states.
   
 6. Complete the code for the `Note.js` screen, 
