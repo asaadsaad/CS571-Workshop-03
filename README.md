@@ -25,10 +25,10 @@ The application should boot a Stack Navigation with the following screens:
     * The component has the following state `{list, loading, error}`.
     * This screen will display the `<Badge />` component, and a `ScrollView` list of the user repos seperated by a `<Separator />` component. 
     * When the user clicks on the repository name, take the user to the `WebView` screen and pass the `html_url`. Note that `WebView` screen is expecting a parameter `url`. You don't need to modify `WebView` screen, just use it.
-    * Manage showing an activity indicator and error states.
+    * Add an activity indicator and error states to the fetch process.
   
 6. Complete the code for the `Note.js` screen, 
-    * This screen will display the `<Badge />` component, and a `ScrollView` list of the user notes seperated by the `<Separator />` component. At the end it will show an input to allow users adding notes. *(Notes are to be displayed only and you don't have to worry about persisting them)*. 
+    * This screen will display the `<Badge />` component, and a `ScrollView` list of the user notes seperated by the `<Separator />` component. At the end it will show an input to allow users adding notes. *(The notes will not be persisted, just to be saved in a temporary variable `notes` in the state)*. 
     * The screen has the following state `{notes, note}`.
 
 ## Notes  
