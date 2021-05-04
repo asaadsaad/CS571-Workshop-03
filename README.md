@@ -1,7 +1,7 @@
 # CS571 Workshop 03
 ## GitHub Notes App
-The following ReactNative Expo project is to search and display information about GitHub profiles. Clone the repo and install/update all deps.
-The application should boot a Stack Navigation with the following screens:
+The following ReactNative Expo project is to search and display information about GitHub profiles. Check the screenshots below. Clone the repo and install/update all deps.
+The application should boot a Stack Navigation with the following screens (find the components in the `components` folder):
 * Search (main page, users will search for a certain GitHub account)
 * Dashboard (Displays the account picture, with 3 buttons: Profile, Repositories, and Notes)
 * Profile (Displays profile details about the selected GitHub account)
@@ -28,7 +28,7 @@ The application should boot a Stack Navigation with the following screens:
     * Add an activity indicator and error states to the fetch process.
   
 6. Complete the code for the `Note.js` screen, 
-    * This screen will display the `<Badge />` component, and a `ScrollView` list of the user notes seperated by the `<Separator />` component. At the end it will show an input to allow users adding notes. *(The notes will not be persisted, just to be saved in a temporary variable `notes` in the state)*. 
+    * This screen will display the `<Badge />` component, and a `ScrollView` list of the user notes seperated by the `<Separator />` component. At the end it will show an input to allow users adding notes. *(The notes will not be persisted, just saved in a temporary variable `notes` in the state)*. 
     * The screen has the following state `{notes, note}`.
 
 ## Notes  
