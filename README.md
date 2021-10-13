@@ -28,7 +28,7 @@ The application should boot a Stack Navigation with the following screens (find 
     * Add an activity indicator and error states to the fetch process.
   
 6. Complete the code for the `Note.js` screen, 
-    * This screen will display the `<Badge />` component, and a `ScrollView` list of the user notes seperated by the `<Separator />` component. At the end it will show an input to allow users adding notes. *(The notes will be persisted the phone storage)*. 
+    * This screen will display the `<Badge />` component, and a `ScrollView` list of the user notes seperated by the `<Separator />` component. At the end it will show an input to allow users adding notes. *(The notes will be persisted in the phone storage)*. 
     * The screen has the following state `{notes, note}`.
 
 ## Notes  
