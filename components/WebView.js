@@ -5,6 +5,8 @@ import {
 } from 'react-native';
 import { WebView } from 'react-native-webview';
 
+// Don't change this file
+
 export default function BrowserView({ route }) {
     return (
         <View style={styles.container}>
