@@ -1,4 +1,4 @@
-# CS571 Workshop 03
+# CS571 Workshop
 ## GitHub Notes App
 The following ReactNative Expo project is to search and display information about GitHub profiles. Check the screenshots below. Clone the repo and install/update all deps.
 The application should boot a Stack Navigation with the following screens (find the components in the `components` folder):
