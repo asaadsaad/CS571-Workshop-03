@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 import { StyleSheet, Text, View, Image, TouchableOpacity } from 'react-native';
 
 const Dashboard = () => {
-
     return (null)
 };
 
