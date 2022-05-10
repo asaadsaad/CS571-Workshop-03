@@ -3,13 +3,8 @@ import {
     StyleSheet,
 } from 'react-native';
 
-import Badge from 'components/Badge';
-import Separator from 'components/Separator';
 
-
-
-function Notes({ route }) {
-
+function Notes() {
     return (null);
 }
 
