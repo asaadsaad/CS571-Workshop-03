@@ -1,9 +1,6 @@
 import React, { useState } from 'react';
 import { StyleSheet, Text, View, Image, ScrollView } from 'react-native';
 
-import Separator from 'components/Separator';
-import Badge from 'components/Badge';
-
 const ProfileDetails = () => {
     const detailsArr = ['company', 'location', 'followers', 'following', 'email', 'bio'];
 
