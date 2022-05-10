@@ -3,11 +3,7 @@ import {
     StyleSheet,
 } from 'react-native';
 
-import Separator from 'components/Separator';
-import Badge from 'components/Badge';
-
 function Repositories({ navigation, route }) {
-
     return (null)
 }
 
