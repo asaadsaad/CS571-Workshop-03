@@ -1,6 +1,7 @@
 import React from 'react';
 import { StyleSheet, Text, View, Image } from 'react-native';
 
+// Don't change this file
 
 const Badge = ({ userInfo }) => {
     const { avatar_url, name, login } = userInfo;
