@@ -1,6 +1,8 @@
 # CS571 Workshop
 ## GitHub Notes App
-This mobile app is to search and display information about GitHub profiles. Check the screenshots below. Copy `components` folder with `App.js` into an Expo project. Add [WebView](https://github.com/react-native-webview/react-native-webview) dependency to your project.
+This mobile app is to search and display information about GitHub profiles. Check the screenshots below. Copy `components` folder with `App.js` into an Expo project. Add [WebView](https://github.com/react-native-webview/react-native-webview) dependency to your project. 
+* Use the provided StyleSheet object.
+* While you can pass the data from one screen to another via nagivation/route, it's ideal to have a global state for the user Github account details so all screens get access to it.
   
 The application should render a Stack Navigation with the following screens (all the needed components are created in the `components` folder):
 * Search (main page, users will search for a certain GitHub account)
@@ -33,7 +35,6 @@ The application should render a Stack Navigation with the following screens (all
     * The screen has the following state `{notes: array, note: string}`.
 
 ## Notes  
-* Use the provided StyleSheet object.
 * Do not upload any zip files into your repo.
 * Do not push any deps (node_modules).
 * Remember to honor the project integrity and authenticity of your code.
